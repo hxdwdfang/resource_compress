@@ -1,5 +1,5 @@
-###图片压缩使用指南
-####准备工作
+图片压缩使用指南
+准备工作
 * python环境 图片压缩使用python脚本进行压缩，所以运行电脑需要安装python3(脚本用的部份api在python2是有问题，所以要使用python3)
 * tinypng sdk安装
 	
@@ -12,7 +12,7 @@
 * 修改config.json文件配置api key（多个key请使用json list，单key可用字符串或者list）、待压缩资源目录
 
 
-####执行
+执行
 脚本默认读取config.json中的配置，也可以有配置执行时也可加参数，在配置与加参数同时存在时，相同项以命令参数为最后参数，缺省项以配置中参数为默认参数。有source\_path时 api\_key不可缺省！
 
 ```
