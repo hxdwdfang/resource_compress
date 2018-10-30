@@ -198,7 +198,9 @@ def do_compress(keys, source_path, target_path):
     except Exception as e:
         # 如果是帐号错误就换key,换key后继续执行当前操作,给下换key的机会
         if type(e) is tinify.errors.AccountError:
+            print("当前key={0}出错，尝试切换key再压缩 message = {1}".format(tinify.key, e.message))
             if choose_tinify_key(keys) > 0:
+                print("切换后的key={0} 继续压缩~~~~~".format(tinify.key))
                 do_compress(keys, source_path, target_path)
             else:
                 print("所有帐号错误（API key无效或者当月已经无剩余压缩余额) message = ", e.message)

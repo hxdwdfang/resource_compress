@@ -31,3 +31,6 @@
 python3 resource_compress.py [api_key] [source_path]
 ```
 
+其它
+-------
+tinypng其它功能可参照开发文档**[Developer API](https://tinypng.com/developers/reference/python)**
