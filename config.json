@@ -1,5 +1,5 @@
 {
-  "tinypng_key":["5HHwvEAQrxXn7VZO5f7BQgN4XxFIcqeI", "ZRVegFijD7SnMYWWGVePntGKKXrrKy5f"],
-  "source_path":"/Users/wdfang122/WorkSpace/IOS/TDFSupplyChainApp/icon.xcassets",
+  "tinypng_key":["tinify key1", "tinifykey2", "tinifykey3"],
+  "source_path":"/要压缩的工程资源目录(会自动遍历目录下的字目录)",
   "need_backup":true
 }
