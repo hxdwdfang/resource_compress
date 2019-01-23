@@ -16,7 +16,7 @@ import os
 import shutil
 
 # 默认的备份文件夹名称，做到只要指定源目录就能做压缩，默认输出目录就是在原目录最后文件夹前加after
-backup_dir_name = "GYLImageCompressBackUp"
+backup_dir_name = "CompressImageCompressBackUp"
 backup_cached_file_name = "compressedPaths.txt"
 
 
